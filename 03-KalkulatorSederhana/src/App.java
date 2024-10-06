@@ -6,11 +6,11 @@ class Kalkulator{
     double Pembagian;
 
     // constructor dengan parameter
-    Kalkulator (double Input1, double Input2, double Input3, double Input4){
-        Perkalian = Input1 * Input2 * Input3 * Input4;
-        Penjumlahan = Input1 + Input2 + Input3 + Input4;
-        Pengurangan = Input1 - Input2 - Input3 - Input4;
-        Pembagian = Input1 / Input2 / Input3 / Input4;
+    Kalkulator (double Input1, double Input2){
+        Perkalian = Input1 * Input2;
+        Penjumlahan = Input1 + Input2;
+        Pengurangan = Input1 - Input2;
+        Pembagian = Input1 / Input2;
         
         // cetak
         System.out.println("Hasil Perkalian: " + Perkalian);
@@ -25,8 +25,11 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         // instansi object class kalkulator
-        Kalkulator Kalkulator1 = new Kalkulator(5, 2, 4, 10);
-
-        Kalkulator kalkulator2 = new Kalkulator(10, 5, 8, 4);
+        System.out.println("Kalkulator 1");
+        Kalkulator Kalkulator1 = new Kalkulator(5, 2);
+        System.out.println();
+        System.out.println("Kalkulator 2");
+        Kalkulator kalkulator2 = new Kalkulator(10, 5);
+        
     }
 }
