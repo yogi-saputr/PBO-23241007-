@@ -54,7 +54,7 @@ public class App {
         bdr_1.menghitungKeliling();
 
         // memanggil method setPanjang & setLebar
-        bdr_1.setLebar(7);
+        bdr_1.setPanjang(7);
         bdr_1.setLebar(4);
         // cetak setelah ubah panjang dan lebar
         bdr_1.menghitungLuas();
